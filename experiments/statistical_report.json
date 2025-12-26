@@ -1,0 +1,76 @@
+{
+  "comparison": {
+    "hypothesis_test": {
+      "t_statistic": -1.4864543869722766,
+      "p_value": 0.1403368113576456,
+      "significant": false,
+      "alpha": 0.05
+    },
+    "effect_size": {
+      "cohens_d": -0.21154406762361544,
+      "interpretation": "small"
+    },
+    "rl_agent": {
+      "mean": 28.63781822983209,
+      "std": 154.06804761490847,
+      "ci_lower": -2.0866331916173486,
+      "ci_upper": 59.36226965128152
+    },
+    "baseline_agent": {
+      "mean": 60.09170787593786,
+      "std": 141.55080630752198,
+      "ci_lower": 31.863461075972445,
+      "ci_upper": 88.31995467590326
+    },
+    "improvement": {
+      "percentage": -52.343144766402375,
+      "absolute": -31.453889646105768
+    }
+  },
+  "rl_normality": {
+    "shapiro_wilk": {
+      "statistic": 0.751235215784627,
+      "p_value": 1.0094703754926943e-11,
+      "normal": false
+    },
+    "kolmogorov_smirnov": {
+      "statistic": 0.3116642338769422,
+      "p_value": 3.969499775828486e-09,
+      "normal": false
+    },
+    "descriptive": {
+      "mean": 28.63781822983209,
+      "median": 120.86107934120973,
+      "std": 154.06804761490847,
+      "skewness": -0.5476515935491748,
+      "kurtosis": -1.5715931985521445
+    }
+  },
+  "baseline_normality": {
+    "shapiro_wilk": {
+      "statistic": 0.7018412374968424,
+      "p_value": 5.953949674168776e-13,
+      "normal": false
+    },
+    "kolmogorov_smirnov": {
+      "statistic": 0.3519496545672822,
+      "p_value": 1.3941285606995222e-11,
+      "normal": false
+    },
+    "descriptive": {
+      "mean": 60.09170787593786,
+      "median": 128.88988221771277,
+      "std": 141.55080630752198,
+      "skewness": -1.0439491535370384,
+      "kurtosis": -0.751910927189904
+    }
+  },
+  "power_analysis": {
+    "power": 0.32155466064712657,
+    "effect_size": -0.21154406762361544,
+    "sample_size": 100,
+    "alpha": 0.05,
+    "required_n_for_80_power": 351,
+    "adequate_power": false
+  }
+}

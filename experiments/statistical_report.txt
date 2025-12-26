@@ -1,0 +1,57 @@
+================================================================================
+STATISTICAL ANALYSIS REPORT
+================================================================================
+
+1. HYPOTHESIS TEST (Paired t-test)
+--------------------------------------------------------------------------------
+H₀: RL agent performance ≤ Baseline agent performance
+H₁: RL agent performance > Baseline agent performance
+
+t-statistic: -1.4865
+p-value: 0.140337
+Significance level (α): 0.05
+Result: FAIL TO REJECT H₀
+
+2. EFFECT SIZE
+--------------------------------------------------------------------------------
+Cohen's d: -0.2115
+Interpretation: SMALL
+
+3. DESCRIPTIVE STATISTICS
+--------------------------------------------------------------------------------
+RL Agent:
+  Mean: 28.64
+  Std: 154.07
+  95% CI: [-2.09, 59.36]
+
+Baseline Agent:
+  Mean: 60.09
+  Std: 141.55
+  95% CI: [31.86, 88.32]
+
+Improvement:
+  Absolute: -31.45
+  Percentage: -52.34%
+
+4. NORMALITY TESTS
+--------------------------------------------------------------------------------
+RL Agent:
+  Shapiro-Wilk p-value: 0.000000
+  Normal: False
+
+Baseline Agent:
+  Shapiro-Wilk p-value: 0.000000
+  Normal: False
+
+5. POWER ANALYSIS
+--------------------------------------------------------------------------------
+Statistical Power: 0.3216
+Sample Size: 100
+Required n for 80% power: 351
+Adequate Power: False
+
+6. CONCLUSION
+--------------------------------------------------------------------------------
+No statistically significant difference detected (p ≥ 0.05).
+
+================================================================================
